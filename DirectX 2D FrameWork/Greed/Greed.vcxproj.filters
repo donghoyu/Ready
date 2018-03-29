@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="쓰레기">
+      <UniqueIdentifier>{be57f437-f660-4afd-83f0-0754958094be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="쓰레기\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="매니져">
+      <UniqueIdentifier>{c57bc5ad-a5ce-43d2-97c3-29a81d7bce3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2D Base">
+      <UniqueIdentifier>{266b46bb-259a-44ab-a072-50cd3e31ffb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2D Base\메인게임">
+      <UniqueIdentifier>{a022412f-3987-4e4d-b772-f5626f1c297b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2D Base\윈도우">
+      <UniqueIdentifier>{7243da14-c856-4dc1-990b-5f250c8d6b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2D Base\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="D2D Base\유틸">
+      <UniqueIdentifier>{c18ce8bd-a38e-434c-940c-5f93554160e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매니져\디바이스 매니져">
+      <UniqueIdentifier>{636bc511-a027-4f46-aa3e-879202361938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매니져\프레임    매니져">
+      <UniqueIdentifier>{03077201-3834-43d2-9de5-a4356600cf7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매니져\텍스트    매니져%28폰트%29">
+      <UniqueIdentifier>{a2b7f01f-5b7a-488d-890c-1ea3895ef7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매니져\이미지    매니져">
+      <UniqueIdentifier>{85894c9d-a64f-4deb-b0dc-7490040c4be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매니져\키          매니져">
+      <UniqueIdentifier>{bb312969-f276-4b4f-ba6d-7a46c99b04b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매니져\씬          매니져">
+      <UniqueIdentifier>{1798207b-f48d-4687-95aa-28b69e2f72c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매니져\렉탱클    매니져">
+      <UniqueIdentifier>{7093c694-a010-4b43-abc4-e3b8e6a8e969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매니져\FadeOut 매니져">
+      <UniqueIdentifier>{67c61579-9b74-422f-b7d3-66ae6581b17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매니져\로딩       매니져">
+      <UniqueIdentifier>{c02e36ab-db7e-47ca-979e-32c42e7bbe9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매니져\카메라    매니져">
+      <UniqueIdentifier>{432d78c6-5074-43b6-9cfe-b5372086f7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="플레이어">
+      <UniqueIdentifier>{672d7c40-2228-4def-9630-6a1bcf5b39c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="씬">
+      <UniqueIdentifier>{7a291e3b-c8ac-4cbb-b97f-af73ff739ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="씬\로고 씬">
+      <UniqueIdentifier>{e0f36d42-3048-4c56-83fc-e0d08ce29f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="씬\타이틀 씬">
+      <UniqueIdentifier>{067edb79-84df-4c60-a6a7-93ac818921ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="씬\인트로 씬">
+      <UniqueIdentifier>{b5ca55d9-09fb-44f0-a2da-728fefd55651}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>D2D Base\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Greed.h">
+      <Filter>쓰레기</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>쓰레기</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>쓰레기</Filter>
+    </ClInclude>
+    <ClInclude Include="cDeviceManager.h">
+      <Filter>매니져\디바이스 매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="Utill.h">
+      <Filter>D2D Base\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>D2D Base\메인게임</Filter>
+    </ClInclude>
+    <ClInclude Include="cFontManager.h">
+      <Filter>매니져\텍스트    매니져%28폰트%29</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrame.h">
+      <Filter>매니져\프레임    매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrameManager.h">
+      <Filter>매니져\프레임    매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cimage.h">
+      <Filter>매니져\이미지    매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cimageManager.h">
+      <Filter>매니져\이미지    매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyManager.h">
+      <Filter>매니져\키          매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>매니져\씬          매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>매니져\씬          매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cRectangleManager.h">
+      <Filter>매니져\렉탱클    매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cFadeOutManager.h">
+      <Filter>매니져\FadeOut 매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoading.h">
+      <Filter>매니져\로딩       매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoadingManager.h">
+      <Filter>매니져\로딩       매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraManager.h">
+      <Filter>매니져\카메라    매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Logo.h">
+      <Filter>씬\로고 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Title.h">
+      <Filter>씬\타이틀 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Intro.h">
+      <Filter>씬\인트로 씬</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>쓰레기</Filter>
+    </ClCompile>
+    <ClCompile Include="cDeviceManager.cpp">
+      <Filter>매니져\디바이스 매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="Utill.cpp">
+      <Filter>D2D Base\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>D2D Base\메인게임</Filter>
+    </ClCompile>
+    <ClCompile Include="Greed.cpp">
+      <Filter>D2D Base\윈도우</Filter>
+    </ClCompile>
+    <ClCompile Include="cFontManager.cpp">
+      <Filter>매니져\텍스트    매니져%28폰트%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrame.cpp">
+      <Filter>매니져\프레임    매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrameManager.cpp">
+      <Filter>매니져\프레임    매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cimage.cpp">
+      <Filter>매니져\이미지    매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cimageManager.cpp">
+      <Filter>매니져\이미지    매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyManager.cpp">
+      <Filter>매니져\키          매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>매니져\씬          매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>매니져\씬          매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cRectangleManager.cpp">
+      <Filter>매니져\렉탱클    매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cFadeOutManager.cpp">
+      <Filter>매니져\FadeOut 매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoading.cpp">
+      <Filter>매니져\로딩       매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoadingManager.cpp">
+      <Filter>매니져\로딩       매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraManager.cpp">
+      <Filter>매니져\카메라    매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Logo.cpp">
+      <Filter>씬\로고 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Title.cpp">
+      <Filter>씬\타이틀 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Intro.cpp">
+      <Filter>씬\인트로 씬</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Greed.rc">
+      <Filter>쓰레기\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>쓰레기\리소스 파일</Filter>
+    </Image>
+    <Image Include="Greed.ico">
+      <Filter>쓰레기\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
